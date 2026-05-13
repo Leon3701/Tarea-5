@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}   
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 600px;
+  
+}
+
+.contenedor img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.texto-encima {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  font-size: 40px;
+}   
+
+.texto-encima2{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    font-size: large;
+}
+
+.a1{color: gold;}
+
+.cuadrado{
+    position: absolute;
+    top: 37.5%;
+    right: 37.5%;
+    width: auto;
+    height: auto;
+    color: white;
+    border: 2px solid black;
+    font-size: 64px;
+}
+
+hr{
+    border: none;
+    height: 8px;
+    background-color: gold;
+    border-style: double;
+}
+
+.c{
+    text-align: center;
+}
+
+.mdiv1{
+    width: 50%;
+    height: 300px;
+    text-align: center;
+}
+
+.h2{
+    text-decoration: underline;
+}
+
+.mdiv2{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.mdiv2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+
+}
+
+.hs{
+    display: flex;
+    justify-content: center;
+}
+
+.im{
+    margin-right: 20px;
+}
+
+.fdiv{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+
+.mh1{text-align: center;}
+
+.mdiv22{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 400px;
+}
+
+.mdiv22 img{
+    width: 90%;
+    height: 93%;
+    object-fit: fill;
+    margin-right: 20px;
+}
+
+.abc{
+    display: flex;
+    justify-content: center;
+}
+
+.abc h2{
+    margin-right: 20px;
+}
+
+.ffa{
+    background-color: beige;
+    font-size: 69px;
+    display: flex;
+    justify-content: center;
+}

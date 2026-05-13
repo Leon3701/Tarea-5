@@ -1,0 +1,93 @@
+/* Reglas para móviles */
+@media screen and (max-width: 768px) {
+
+  /* Evita que el header se sobreejete con imágenes de abajo */
+  body {
+    overflow-x: hidden; /* evita scroll horizontal */
+  }
+
+  /* Título principal y menú */
+  .mh1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  a[href="../../index.html"] {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  /* <hr> no se vea tapado */
+  hr {
+    margin: 10px auto;
+    width: 90%;
+  }
+
+  /* Título "Categorías" */
+  .abc {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 140px;
+  }
+
+  .abc h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  /* Contenedor de las 3 imágenes */
+  .mdiv22 {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .mdiv22 > div {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .mdiv22 h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .mdiv22 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  /* Footer del menú */
+  footer {
+    width: 100%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+  }
+
+  .ffa {
+    flex-direction: row;
+    align-items: center;
+    font-size: 40px;           /* antes 69px, muy grande */
+  }
+
+  .ffa h1 {
+    margin-bottom: 8px;
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  .footer-wrapper {
+  width: 100%;
+  margin-top: 30px;
+  background-color: beige;
+  box-sizing: border-box;
+  }
+}
