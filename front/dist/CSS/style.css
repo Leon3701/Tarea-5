@@ -152,3 +152,94 @@ hr{
     top: 37.5%;
     right: 37.5%;
 }
+
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* spacing between images */
+  align-items: center;
+}
+
+.image-item {
+  position: relative;
+  flex: 1;
+  max-width: 100%; /* adjust or remove as needed */
+}
+
+.image-item img {
+  width: 100%;
+  height: 600px;
+  display: block;
+}
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  text-align: center;
+  pointer-events: none; /* text doesn’t block clicks on the image */
+  font-family: "Sofia", sans-serif;
+}
+
+
+
+.layout {
+  display: flex;
+  height: 620px;
+  padding: 0 20px; /* some pixels from left and right */
+}
+
+.left-container {
+  width: 600px;    /* or set height to 400px for a square */
+  height: 600px;   /* keeps it square/rectangle */
+  position: relative;
+  background-color: #eee; /* optional, just to see the box */
+  margin-right: 20px;
+}
+
+.corner-img {
+  width: 290px;    /* all images same size */
+  height: 290px;
+  /*object-fit: fill; /* crop to fit */
+}
+
+/* Each image in a corner */
+.top-left   { position: absolute; top:  0px; left:   0px; }
+.top-right  { position: absolute; top:  0px; right:  0px; }
+.bottom-left  { position: absolute; bottom: 0px; left:   0px; }
+.bottom-right { position: absolute; bottom: 0px; right:  0px; }
+
+/* Right text column */
+.right-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* h1 at top, p at bottom */
+  align-items: center;
+  padding: 20px 0;
+}
+
+.right-column h1 {
+  font-size: 50px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-family: "Rouge Script", cursive;
+}
+
+.right-column pre {
+    font-size: 50px;
+    font-family: "Rouge Script", cursive;
+}
+
+
+.back-color{
+    background-color: bisque;
+}
